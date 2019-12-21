@@ -39,7 +39,7 @@ let movieList = document.querySelector('.movie-list');
 let inputKeyword = document.querySelector('.input-keyword');
 let buttonSearch = document.querySelector('.button-search');
 //ketika halaman dibuka
-getMovies('doraemon');
+getMovies('the lion king');
 
 //ketika film dicari
 buttonSearch.addEventListener('click',function(){
